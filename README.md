@@ -12,8 +12,11 @@ Suitable for ML, CV, and medical imaging preprocessing
 📁 Folder structure
 
 project/
+
 ├── input_images/      # your original images
+
 ├── output_n4_images/  # corrected images will appear here
+
 └── n4_bias.py
 
 🛠️ Technologies Used:
@@ -23,12 +26,16 @@ NumPy
 tqdm
 
 ⚙️ Workflow:
+
 Raw Images
    ↓
+   
 N4 Bias Field Correction
    ↓
+   
 Normalized & Clean Images
    ↓
+   
 Upload to Roboflow / ML Training
 
 🖼️ Sample Input & Output (N4 Bias Correction)
@@ -48,9 +55,13 @@ After applying N4 Bias Field Correction, the illumination becomes uniform while 
 
 
 🔍 What changed?
+
 Uneven brightness is reduced
+
 Image intensity becomes more uniform
+
 Important structures/features remain intact
+
 Image becomes more suitable for ML training
 
 🧠 Why this matters
@@ -64,16 +75,24 @@ The full dataset is processed locally before uploading to training platforms lik
 🔄 How to reproduce this result
 
 Place your raw images inside input_images/
+
 Run the N4 bias correction script:
+
 python n4_bias.py
+
 Processed images will be saved in output_n4_images/
+
 
 ✅ Result
 
 Clean, illumination-corrected images ready for:
+
 Annotation
+
 Roboflow preprocessing
+
 YOLO / ML model training
+
 
 
 
