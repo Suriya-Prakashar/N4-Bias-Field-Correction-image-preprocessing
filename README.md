@@ -1,4 +1,4 @@
-##🔹 Project Overview:
+##🔹 Project Overview:##
 This project implements N4 Bias Field Correction to improve image quality by removing uneven illumination and brightness artifacts. The preprocessing pipeline is designed to clean images before using them in machine learning and computer vision models.
 The script processes images in bulk, applies N4 bias correction using SimpleITK, normalizes the output, and saves viewable images ready for annotation and training platforms like Roboflow.
 
