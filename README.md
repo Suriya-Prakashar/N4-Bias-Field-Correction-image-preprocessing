@@ -35,12 +35,16 @@ This section demonstrates how N4 Bias Field Correction improves image quality by
 
 🔹 Sample Input Image (Before N4 Bias Correction)
 This image contains non-uniform brightness caused by lighting or sensor artifacts.
+
  ![11](https://github.com/user-attachments/assets/54377b80-9544-4b01-a8fd-be26cbe7ed0e)
 
 
 🔹 Sample Output Image (After N4 Bias Correction)
 After applying N4 Bias Field Correction, the illumination becomes uniform while preserving important image details.
+
+
 ![11](https://github.com/user-attachments/assets/2aa43b6f-2f07-4bec-b925-201d57e17215)
+
 
 🔍 What changed?
 Uneven brightness is reduced
