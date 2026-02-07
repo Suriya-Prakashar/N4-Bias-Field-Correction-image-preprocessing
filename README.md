@@ -85,7 +85,9 @@ Processed images will be saved in output_n4_images/
 ## Result
 
 Clean, illumination-corrected images ready for:
+
 Annotation
+
 Roboflow preprocessing
 
 YOLO / ML model training
