@@ -1,0 +1,4 @@
+input_images/
+output_n4_images/
+__pycache__/
+*.pyc
