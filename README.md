@@ -10,6 +10,7 @@ Optimized for Windows laptops (CPU-based, no GPU required)
 Suitable for ML, CV, and medical imaging preprocessing
 
 📁 Folder structure
+
 project/
 ├── input_images/      # your original images
 ├── output_n4_images/  # corrected images will appear here
@@ -61,12 +62,14 @@ Only sample images are included in this repository for demonstration purposes.
 The full dataset is processed locally before uploading to training platforms like Roboflow.
 
 🔄 How to reproduce this result
+
 Place your raw images inside input_images/
 Run the N4 bias correction script:
 python n4_bias.py
 Processed images will be saved in output_n4_images/
 
 ✅ Result
+
 Clean, illumination-corrected images ready for:
 Annotation
 Roboflow preprocessing
